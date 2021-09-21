@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EASY TRANSFER</string>
+    <string name="amt">Rs %1$s/-</string>
+    <string name="sent_successfully">Sent successfully</string>
+    <string name="name_of_customer">Name of customer</string>
+</resources>

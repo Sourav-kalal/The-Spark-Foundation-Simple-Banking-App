@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD740"
+    tools:context=".Activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="273dp"
+        android:layout_height="263dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Contact Details"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="#FF7043"
+        android:layout_centerInParent="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Transactions"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="#FF7043"
+        android:layout_below="@id/button2"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
